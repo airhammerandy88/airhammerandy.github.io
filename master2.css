@@ -1,0 +1,180 @@
+:root {
+    --color1: rgb(215, 224, 224);
+    --color2: rgb(144, 176, 243);
+    --color3: rgb(215, 224, 224);
+    --color4: rgb(129, 160, 206);
+    --color5: rgba(192, 192, 192, 0.589);
+    --color6:rgb(228, 74, 100);
+    --color7: blue;
+    --color8: rgb(175, 58, 175);
+    --color9: rgb(255, 230, 0);
+
+
+
+}
+* {
+   font-variant-emoji:emoji  ;
+}
+
+div  {
+   display: flex;
+   text-align: center;
+   
+
+}
+
+#datediv  {
+   
+   font-size: larger;
+   background-color: rgba(0, 255, 255, 0.185);
+ 
+}
+
+h1 {
+   color: var(--color7);
+}
+
+h2 {
+   color: blueviolet;
+}
+
+#box2 {
+   text-shadow: 2px 2px 5px rgb(87, 83, 83);
+}
+
+body  {
+
+   
+   
+    background-image: url(multimedia/pcb1.jpg);
+    
+    font-size: large;
+    text-align: center;
+    padding: 1%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 1%;
+    border: 1%;
+
+ }
+ 
+ 
+
+ header {
+    background: var(--color2);
+
+
+
+    
+    
+    
+    
+    
+    
+ }
+
+ main {
+   ol {
+      list-style-type: none;
+      }
+   
+   
+ }
+ 
+ nav {
+    background: var(--color2);
+    flex: 0 1 10%;
+    flex-direction: column;
+    
+   
+    
+ }
+
+ main {
+   background-color: var(--color1);
+   flex: 0 1 50%;
+
+   
+      td {
+          font-size:small;
+      }
+    
+    
+   p {
+      text-indent: 10%;
+   }
+}
+  
+   
+
+ 
+
+
+   
+ article {
+    background: var(--color1);
+    flex: 0 1 80%;
+    padding: 1%;
+
+    #pro {
+      table-layout: auto;
+      width: 99%;
+      
+    }
+
+    p {
+        text-indent: 50px;
+        text-align: center;
+        
+    }
+
+    ul {
+      list-style-type: none;
+      font-size: smaller;
+  }  
+    
+    
+     
+ }
+
+ section {
+    background: var(--color2);
+    flex: 0 1 20%;
+    
+   
+    
+ }
+ 
+ footer {
+    background: var(--color2);
+    text-align:center;
+    font-size: small;
+ }
+
+ a:hover {
+   color:var(--color7);
+}
+
+
+form p {
+   background-color: var(--color5);
+   
+}
+
+em {
+   background-color: var(--color6);
+}
+
+.paraone {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-shadow: 2px 2px 5px rgb(35, 66, 57);
+}
+ 
+#boxer {
+   a:hover {
+      color: rgb(250, 72, 102);
+   }
+   text-shadow: 2px 2px 5px rgb(211, 104, 121) ;
+}
+
+
