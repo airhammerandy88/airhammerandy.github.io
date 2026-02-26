@@ -4,6 +4,7 @@ const d = new Date();
 
 let name = prompt("What shall I call you")
 console.log(`Welcome to my Office, ${name}.` );
+
 function addPost() {
             const input = document.getElementById('postInput');
             const text = input.value.trim();
