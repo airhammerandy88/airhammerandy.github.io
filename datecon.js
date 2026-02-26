@@ -25,17 +25,4 @@ function addPost() {
             // Clear the input box
             input.value = "";
         }
-        const input = document.getElementById('postInput');
-        const preview = document.getElementById('postPreview');
-
-        input.addEventListener('input', () => {
-            const text = input.value.trim();
-
-            if (text === "") {
-                preview.textContent = "Your post will appear here...";
-                preview.classList.add('placeholder');
-            } else {
-                preview.textContent = text;
-                preview.classList.remove('placeholder');
-            }
-        });
+       
